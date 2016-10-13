@@ -15,18 +15,27 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="id.sch.smktelkom_mlg.tugas01.xiirpl5026.mokletsharing.MainActivity">
 
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/logo" />
+
         <android.support.design.widget.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
             <EditText
                 android:id="@+id/email"
-                android:layout_width="match_parent"
+            android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:hint="Email"
                 android:inputType="textEmailAddress" />
         </android.support.design.widget.TextInputLayout>
+
 
         <android.support.design.widget.TextInputLayout
             android:layout_width="match_parent"
@@ -34,7 +43,7 @@
 
             <EditText
                 android:id="@+id/name"
-                android:layout_width="match_parent"
+            android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Username" />
         </android.support.design.widget.TextInputLayout>
@@ -46,7 +55,7 @@
 
             <EditText
                 android:id="@+id/password"
-                android:layout_width="match_parent"
+            android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:hint="Password"
@@ -65,7 +74,7 @@
 
             <RadioButton
                 android:id="@+id/rbL"
-                android:layout_width="wrap_content"
+            android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:checked="false"
                 android:text="Laki - Laki" />
@@ -89,7 +98,8 @@
             android:id="@+id/spinnerTahun"
             android:layout_width="351dp"
             android:layout_height="wrap_content"
-            android:layout_weight="0.16" />
+            android:layout_weight="0.16"
+            android:entries="@array/tahun" />
 
         <TextView
             android:id="@+id/textView"
@@ -98,37 +108,38 @@
             android:text="Negara" />
 
         <Spinner
-            android:id="@+id/spinnerNegara"
+            android:id="@+id/spinnerKelas"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="0.25" />
+            android:layout_weight="0.25"
+            android:entries="@array/Kelas" />
 
         <TextView
             android:id="@+id/textView3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Hobi" />
+            android:text="Pekerjaan" />
 
         <CheckBox
-            android:id="@+id/checkBoxMusic"
+            android:id="@+id/checkBoxGuru"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="false"
-            android:text="Musik" />
+            android:text="Guru" />
 
         <CheckBox
-            android:id="@+id/checkBoxBC"
+            android:id="@+id/checkBoxSis"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="false"
-            android:text="Membaca" />
+            android:text="Siswa" />
 
         <CheckBox
-            android:id="@+id/checkBoxOR"
+            android:id="@+id/checkBoxDev"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="false"
-            android:text="Olahraga" />
+            android:text="Developer" />
 
         <Button
             android:id="@+id/buttonReg"
@@ -136,7 +147,6 @@
             android:layout_width="116dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-
             android:text="Register"
             android:textColor="@android:color/white" />
 
