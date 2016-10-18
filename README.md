@@ -6,13 +6,6 @@ Created By :
 * Class  : XIIRPL5 - 26
 * School : SMK Telkom Malang
 
-The APK links : 
-[Download](https://drive.google.com/file/d/0B3888bALaqwWdHhrc21QLUtWTlk/view?usp=sharing)
-
-![Image of NullApp](https://github.com/ikaru19/moklet_sharing/blob/master/Screenshot_2016-10-13-14-13-09.png)
-![Image of bla](https://github.com/ikaru19/moklet_sharing/blob/master/Screenshot_2016-10-13-14-13-43.png)
-![Image of blabla](https://github.com/ikaru19/moklet_sharing/blob/master/Screenshot_2016-10-13-14-13-48.png)
-
 This application is a simple project of registration form for Android Application. For the time being it will developed to a chat application.
 
 In this application you need to give your personal details like :
@@ -31,4 +24,13 @@ This application will not process your request if :
     The password field is empty or less than 6 character
     The email field is empty
     And the radio button is remain null or not checked
+
+
+The APK links : 
+[Download](https://drive.google.com/file/d/0B3888bALaqwWdHhrc21QLUtWTlk/view?usp=sharing)
+
+![Image of NullApp](https://github.com/ikaru19/moklet_sharing/blob/master/Screenshot_2016-10-13-14-13-09.png)
+![Image of bla](https://github.com/ikaru19/moklet_sharing/blob/master/Screenshot_2016-10-13-14-13-43.png)
+![Image of blabla](https://github.com/ikaru19/moklet_sharing/blob/master/Screenshot_2016-10-13-14-13-48.png)
+
 
